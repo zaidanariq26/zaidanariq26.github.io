@@ -1,0 +1,48 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background: #e2edff;
+}
+.zaidan {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+#projects {
+  background-color: #e2edff;
+}
+#projects .card-img-top {
+  height: 18rem;
+  object-fit: cover;
+}
+#projects .kopi-2 {
+  object-position: top;
+}
+#projects .kopi-3 {
+  object-position: 0 75%;
+}
+#projects .kopi-4 {
+  object-position: left;
+}
+#projects .kopi-5 {
+  object-position: 0 80%;
+}
+
+section {
+  padding-top: 6rem;
+}
+
+.glr {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+#gallery .row > * {
+  padding: 0;
+}
